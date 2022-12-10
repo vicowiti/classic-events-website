@@ -1,2 +1,1 @@
-# classic-events-website
-Website for classic events.
+# Classic Events Website
