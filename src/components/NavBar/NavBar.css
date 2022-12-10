@@ -3,18 +3,26 @@ header {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  background: rgb(67, 67, 163);
+  background-color: rgb(15, 15, 15);
   padding: 0 2rem;
   height: 80px;
 }
 
+nav,
+.logo-section {
+  background: inherit;
+}
 nav a {
   margin: 0 2rem;
   color: white;
   text-decoration: none;
+  font-size: 1.3rem;
+  background: transparent;
 }
 
 nav a:hover {
+  transition: 1s;
+
   color: orange;
 }
 
@@ -47,9 +55,9 @@ header .nav-btn {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background: rgb(67, 67, 163);
+    background: rgb(15, 15, 15);
     transition: 1.5s;
-    transform: translateY(-100vh);
+    transform: translateX(100vw);
   }
 
   header .responsive-nav {

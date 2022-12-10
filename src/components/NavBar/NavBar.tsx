@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./NavBar.css";
+import Logo from "../../assets/logo.jpg";
 
 const NavBar = () => {
   const NavRef = useRef<HTMLBaseElement>(null);
@@ -9,7 +10,15 @@ const NavBar = () => {
   };
   return (
     <header>
-      <h1>Logo</h1>
+      <section className="logo-section">
+        <img
+          src={Logo}
+          width="50px"
+          height="auto"
+          className="logo"
+          alt="logo"
+        />
+      </section>
 
       <nav ref={NavRef}>
         <a href="#">Home</a>
