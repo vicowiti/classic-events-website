@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background: rgb(67, 67, 163);
+  padding: 0 2rem;
+  height: 80px;
+}
+
+nav a {
+  margin: 0 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background: rgb(67, 67, 163);
+    transition: 1.5s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsive-nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+}
