@@ -2,5 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #292828;
+  color: #111;
+  /* background-color: #292828; */
+}
+
+.golden-text {
+  background-color: red;
+  background-image: linear-gradient(purple, gold);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }

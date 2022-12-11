@@ -3,18 +3,19 @@ header {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(219, 210, 210);
   padding: 0 2rem;
   height: 80px;
+  z-index: 99999;
 }
 
 nav,
 .logo-section {
-  background: inherit;
+  background: rgb(219, 210, 210);
 }
 nav a {
   margin: 0 2rem;
-  color: white;
+  color: #111;
   text-decoration: none;
   font-size: 1.3rem;
   background: transparent;
@@ -32,7 +33,7 @@ header .nav-btn {
   background: transparent;
   outline: none;
   border: none;
-  color: #fff;
+  color: #111;
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
@@ -45,6 +46,7 @@ header .nav-btn {
   }
 
   header nav {
+    z-index: 999999999999;
     position: fixed;
     top: 0;
     left: 0;
@@ -55,7 +57,7 @@ header .nav-btn {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background: rgb(15, 15, 15);
+    background: rgb(236, 234, 234);
     transition: 1.5s;
     transform: translateX(100vw);
   }

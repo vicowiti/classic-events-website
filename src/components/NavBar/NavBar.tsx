@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./NavBar.css";
 import Logo from "../../assets/logo.jpg";
+import NavLink from "../NavLink/NavLink";
 
 const NavBar = () => {
   const NavRef = useRef<HTMLBaseElement>(null);
@@ -21,10 +22,11 @@ const NavBar = () => {
       </section>
 
       <nav ref={NavRef}>
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <NavLink id="hero" text="Home" currentRef={NavRef} />
+        <NavLink id="shop" text="Shop" currentRef={NavRef} />
+        <NavLink id="about" text="About" currentRef={NavRef} />
+        <NavLink id="contact" text="Contact" currentRef={NavRef} />
+
         <button onClick={showNavbar} className="nav-btn nav-close-btn">
           x
         </button>

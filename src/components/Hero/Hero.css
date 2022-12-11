@@ -1,0 +1,32 @@
+.hero {
+  width: 100vw;
+  height: 70vh;
+  background-image: url("../../assets/IMG-20221208-WA0023.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  /* opacity: 0.4; */
+  filter: blur(1px);
+}
+
+.hero-container {
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  z-index: 9;
+  top: 30%;
+  left: 30%;
+}
+
+.hero-text .level1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hero-text .level-max {
+  font-size: 3rem;
+  font-weight: 900;
+}
