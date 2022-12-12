@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./NavBar.css";
 import Logo from "../../assets/logo.jpg";
 import NavLink from "../NavLink/NavLink";
-
+import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = () => {
   const NavRef = useRef<HTMLBaseElement>(null);
 
@@ -28,11 +28,11 @@ const NavBar = () => {
         <NavLink id="contact" text="Contact" currentRef={NavRef} />
 
         <button onClick={showNavbar} className="nav-btn nav-close-btn">
-          x
+          <FaTimes />
         </button>
       </nav>
       <button onClick={showNavbar} className="nav-btn">
-        ///
+        <FaBars />
       </button>
     </header>
   );
