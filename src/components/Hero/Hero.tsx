@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-text">
         <p className="level1">Looking for Tasty African Dishes </p>
         <p className="level2">for your intimate events?</p>
-        <p className="level-max">Trust Classic Events!</p>
+        <p className="level-max golden-text">Trust Classic Events!</p>
       </div>
     </div>
   );

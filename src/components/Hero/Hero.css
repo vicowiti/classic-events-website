@@ -18,23 +18,52 @@
   color: #fff;
   position: absolute;
   z-index: 9;
-  top: 50%;
-  left: 30%;
+  top: 40%;
+  left: 20%;
 }
 
 .hero-text .level1 {
   color: #fff;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 .hero-text .level2 {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 700;
   color: #fff;
 }
 .hero-text .level-max {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
+  text-shadow: 1px 1px 0px #ff0;
+}
+
+@media only screen and (max-width: 780px) {
+  .hero-text {
+    color: #fff;
+    position: absolute;
+    z-index: 9;
+    top: 43%;
+    left: 10%;
+  }
+
+  .hero-text .level1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .hero-text .level2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  .hero-text .level-max {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 1px 1px 0px #ff0;
+  }
 }
