@@ -1,6 +1,6 @@
 .hero {
-  width: 100vw;
-  height: 70vh;
+  width: 100vw !important;
+  height: 80vh;
   background-image: url("../../assets/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,12 +40,12 @@
   text-shadow: 1px 1px 0px #ff0;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 900px) {
   .hero-text {
     color: #fff;
     position: absolute;
     z-index: 9;
-    top: 43%;
+    top: 38%;
     left: 10%;
   }
 

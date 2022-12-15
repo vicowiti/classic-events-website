@@ -4,3 +4,9 @@
   margin-bottom: 1rem;
   font-size: 3rem;
 }
+
+section {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}

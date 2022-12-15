@@ -10,12 +10,13 @@ const NavBar = () => {
     NavRef.current?.classList.toggle("responsive-nav");
   };
   return (
-    <header>
+    <header className="app">
       <section className="logo-section">
         <img
           src={Logo}
           width="50px"
-          height="auto"
+          height="50px"
+          // height="auto"
           className="logo"
           alt="logo"
         />
